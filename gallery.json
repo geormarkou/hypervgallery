@@ -1,0 +1,32 @@
+{
+    "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
+
+    "images": [
+    {
+      "name": "Windows Server 2016 Datacenter Edition (Desktop Experience)",
+      "version": "1.0",
+      "locale": "en-US",
+      "publisher": "Bewise",
+      "lastUpdated": "2019-02-05T17:27:07Z",
+      "description": [
+      "This a syspreped image of Windows Server 2016 Datacenter Edition"
+	],
+      "disk": {
+        "uri": "https://sa04software.blob.core.windows.net/hypervgallery/vhd/w2k16dc.vhdx",
+        "hash": "625BF27757665CD84153F633FD5FDE8148205CD062D587F234B11284DEFF002D"
+      },
+      "logo": {
+        "uri": "https://sa04software.blob.core.windows.net/hypervgallery/images/windows-server-2016.png",
+        "hash": "sha256:0ED8286D7B234F6872B7557F62F354EFC35FA8FF7575020B4800EA23E8E0E6ED"
+      },
+      "symbol": {
+        "uri": "https://sa04software.blob.core.windows.net/hypervgallery/images/Logo_Symbol2.jpg",
+        "hash": "sha256:F2AD5FAD5EE2495A77E0CC6D47BDD909CE97B0E17E15DCD493EB6C0C76871DBB"
+      },
+      "thumbnail": {
+        "uri": "https://sa04software.blob.core.windows.net/hypervgallery/images/server_2016_thumbnail.jpg",
+        "hash": "sha256:791D763954E7DA0816C89CA8333F16D0A881C0AD5FDC320CC1245F59B1E2EE9C"
+      }
+    }
+  ]
+}
